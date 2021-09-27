@@ -1,0 +1,2618 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="css/libs.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <section class="main">
+        <div class="main__logo">
+          <a href=""><img src="img/logo.png" alt="Logo" /></a>
+          <button class="main__menu"></button>
+        </div>
+        <div class="main__main">
+          <div class="main__filter">
+            <select class="filter-type">
+              <option value="all">All</option>
+              <option value="Grass">Grass</option>
+              <option value="Fire">Fire</option>
+              <option value="Flying">Flying</option>
+              <option value="Water">Water</option>
+              <option value="Bug">Bug</option>
+              <option value="Normal">Normal</option>
+            </select>
+            <input class="search-input" type="text" placeholder="Search" />
+            <select>
+              <option value="a_z">Aa-Zz</option>
+              <option value="z_a">Zz-Aa</option>
+            </select>
+            <button>Button</button>
+          </div>
+          <div class="main__cards">
+            <div class="main__card" data-type="Grass" data-title="Bulbasaur">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/001.png"
+                alt="Bulbasaur"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Bulbasaur</h4>
+                  <p>Grass, Poison</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>6.9 kg</b>
+                  <b>0.71 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Grass" data-title="Ivysaur">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/002.png"
+                alt="Ivysaur"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Ivysaur</h4>
+                  <p>Grass, Poison</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>13.0 kg</b>
+                  <b>0.99 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Grass" data-title="Venusaur">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/003.png"
+                alt="Venusaur"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Venusaur</h4>
+                  <p>Grass, Poison</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>100.0 kg</b>
+                  <b>2.01 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Fire" data-title="Charmander">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/004.png"
+                alt="Charmander"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Charmander</h4>
+                  <p>Fire</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>8.5 kg</b>
+                  <b>0.61 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Fire" data-title="Charmeleon">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/005.png"
+                alt="Charmeleon"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Charmeleon</h4>
+                  <p>Fire</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>19.0 kg</b>
+                  <b>1.09 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Fire" data-title="Charizard">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/006.png"
+                alt="Charizard"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Charizard</h4>
+                  <p>Fire, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>90.5 kg</b>
+                  <b>1.70 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Water" data-title="Squirtle">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/007.png"
+                alt="Squirtle"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Squirtle</h4>
+                  <p>Water</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>9.0 kg</b>
+                  <b>"0.51 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Water" data-title="Wartortle">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/008.png"
+                alt="Wartortle"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Wartortle</h4>
+                  <p>Water</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>22.5 kg</b>
+                  <b>0.99 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Water" data-title="Blastoise">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/009.png"
+                alt="Blastoise"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Blastoise</h4>
+                  <p>Water</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>85.5 kg</b>
+                  <b>1.60 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Bug" data-title="Caterpie">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/010.png"
+                alt="Caterpie"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Caterpie</h4>
+                  <p>Bug</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>2.9 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Bug" data-title="Metapod">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/011.png"
+                alt="Metapod"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Metapod</h4>
+                  <p>Bug</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>9.9 kg</b>
+                  <b>0.71 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Bug" data-title="Butterfree">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/012.png"
+                alt="Butterfree"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Butterfree</h4>
+                  <p>Bug, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>32.0 kg</b>
+                  <b>1.09 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Bug" data-title="Weedle">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/013.png"
+                alt="Weedle"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Weedle</h4>
+                  <p>Bug, Poison</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>3.2 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Bug" data-title="Kakuna">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/014.png"
+                alt="Kakuna"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Kakuna</h4>
+                  <p>Bug, Poison</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>10.0 kg</b>
+                  <b>0.61 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Bug" data-title="Beedrill">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/015.png"
+                alt="Beedrill"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Beedrill</h4>
+                  <p>Bug, Poison</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>29.0 kg</b>
+                  <b>0.99 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/016.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgeotto">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/017.png"
+                alt="Pidgeotto"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgeotto</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>30.8 kg</b>
+                  <b>1.09 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgeot">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/018.png"
+                alt="Pidgeot"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgeot</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>30.8 kg</b>
+                  <b>1.50 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Normal" data-title="Rattata">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/019.png"
+                alt="Rattata"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Rattata</h4>
+                  <p>Normal</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>3.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/020.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/021.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/022.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/023.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/024.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/025.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/026.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/027.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/028.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/029.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/030.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/031.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/032.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/033.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/034.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/035.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/036.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/037.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/038.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/039.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/040.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/041.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/042.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/043.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/044.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/045.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/046.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/047.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/048.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/049.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/050.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/051.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/052.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/053.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/054.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/055.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/056.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/057.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/058.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/059.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/060.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/061.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/062.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/063.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/064.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/065.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/066.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/067.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/068.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/069.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/070.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/071.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/072.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/073.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/074.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/075.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/076.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/077.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/078.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/079.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/080.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/081.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/082.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/083.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/084.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/085.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/086.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/087.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/088.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/089.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/090.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/091.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/092.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/093.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/094.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/095.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/096.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/097.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/098.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/099.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/100.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/101.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/102.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/103.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/104.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/105.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/106.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/107.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/108.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/109.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/110.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/111.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/112.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/113.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/114.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/115.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/116.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/117.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/118.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/119.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/120.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/121.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/122.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/123.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/124.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/125.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/126.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/127.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/128.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/129.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/130.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/131.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/132.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/133.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/134.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/135.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/136.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/137.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/138.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/139.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/140.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/141.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/142.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/143.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/144.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/145.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/146.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/147.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/148.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/149.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/150.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+            <div class="main__card" data-type="Flying" data-title="Pidgey">
+              <img
+                src="http://www.serebii.net/pokemongo/pokemon/151.png"
+                alt="Pidgey"
+              />
+              <div class="main__text">
+                <div class="main__title">
+                  <h4>Pidgey</h4>
+                  <p>Normal, Flying</p>
+                  <button class="card__add"></button>
+                </div>
+                <div class="main__info">
+                  <b>1.8 kg</b>
+                  <b>0.30 m</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="menu">
+        <div class="menu__cards">
+          <button class="menu__close"></button>
+          <div class="menu__block"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
